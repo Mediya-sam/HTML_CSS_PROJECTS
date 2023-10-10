@@ -77,6 +77,30 @@
 		},
 		{
 			"path": "8.1 CSS Float"
+		},
+		{
+			"path": "8.2 Responsiveness"
+		},
+		{
+			"path": "8.3 Media Query"
+		},
+		{
+			"path": "8.4 Web Design Agency Project"
+		},
+		{
+			"path": "9.0 Display Flex"
+		},
+		{
+			"path": "9.1 Flex Direction"
+		},
+		{
+			"path": "9.4 Flexbox Pricing Table Project"
+		},
+		{
+			"path": "10.0 Display Grid"
+		},
+		{
+			"path": "10.2 Grid Placement"
 		}
 	]
 }
