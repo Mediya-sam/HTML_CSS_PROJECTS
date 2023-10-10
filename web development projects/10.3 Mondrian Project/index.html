@@ -19,11 +19,117 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    .container{
+      display:grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+      background-color: black;
+      height: 748px;
+      width: 748px;
+      
+
+    }
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+
+    }
+      
+    .red{
+      height: 414px;
+      width: 320px;
+      background-color: #E72F24;
+    }
+
+    .white1{
+      background-color:#F0F1EC ;
+      grid-column-start: 2;
+      grid-column-end: 5;
+    }
+
+    .white2{
+      height: 285px;
+      width: 320px;
+      background-color:#F0F1EC ;
+      
+    }
+
+
+    .white3{
+      background-color:#F0F1EC ;
+      height: 295px;
+      width: 351px;
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .white4{
+      background-color: #F0F1EC;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: ;
+      grid-column-end: ;
+      
+    }
+
+    .yellow{
+      background-color: #F9D01E ;
+      width: 198px;
+      height: 20px;
+    }
+    .black{
+      height: 20px;
+      width: 144px;
+      background-color: #232629 ;
+
+    }
+    .blue {
+      background-color: #004592;
+      width: 50px;
+      height: 130px;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      border-bottom: 10px;
+    }
+
+    .item{
+      background-color: white;
+      height: 184px;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start: 3;
+      grid-column-end: 5;
+    }
+
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
+  <div class="container">
+
+    <div class="red"></div>
+    <div class="white1"></div>
+    <div class="white2"></div>
+    <div class="white3"></div>
+
+
+    <div class="blue"></div>
+    <div class="white4"></div>
+
+    <div class="white4"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+    <div class="item"></div>
+  </div>
 </body>
 
 </html>
